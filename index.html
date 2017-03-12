@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <title>Pony Points</title>
+	 
+	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	 
+	 
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 
+	</head>
+	<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
+ 	<script src="assets/javascript/game.js"></script>
+
+		<div class="container">
+			
+				<header class="col-md-12">Pony Points!</header>
+			
+
+				<div class="col-md-8 offsett-md-3">
+					<p class="text-left"> You will be given a random number at the start of the game. This is quite possibley the most METAL Pony Game ever!
+					<br>
+					There are four Ponies below. By clicking on a Ponie you will add a specific number of points to your total score.
+					<br>
+					You win the game by matching your total score to a random number, you lose the game if your total score goes above the random nubmer.
+					<br>
+					The value of each Pony is hidden from you until you click on it.
+					<br>
+					Each time when the game starts, the game will change the values of each crystal.
+					</p>
+				</div>
+			
+			<div class= "row">
+
+				<div class="col-lg-8">
+
+					<button type="button1"><img id="pinkpony"  src="assets/images/pinkpony.png" height="159" width="125"></button>
+			
+					<button type="button2"><img id="bluepony"  src="assets/images/bluepony.png" height="150" width="125" ></button>
+			
+					<button id="button3"><img id="purplepony"  src="assets/images/purplepony.png" height="150" width="125" ></button>
+
+					<button id="button4"><img id="yellowpony"  src="assets/images/yellowpony.png" height="150" width="125"></button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<div>Computer Number</div>
+					<div id="numberToGuess"></div>
+					<div>Your number now...</div>
+					<div id="number"></div>
+				</div>
+				<div class="col-sm-2">
+					<ul class="list-unstyled">
+						<li>Wins</li>
+						<li id="wins">0</li>
+						<li>Losses</li>
+						<li id="loss">0</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	</html>
+	
+
+
